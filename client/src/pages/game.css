@@ -1,0 +1,56 @@
+div.game{
+    background-color: #560737;
+    padding: 20px;
+}
+
+div.game h1{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: spektraBold;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: .2rem;
+}
+
+div.game p{
+    color: #FAFAFA;
+    text-align: center;
+    font-family: "arnhem"; 
+    font-size: 55px;
+}
+
+.card img{
+    max-width: 50%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+
+div.container{
+    display: flex;
+
+}
+
+div.card{
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 2px solid #AA11BB;
+  }

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "arnhem";   
+    src: local("AnyConv.com__Arnhem"),
+      url("../fonts/AnyConv.com__Arnhem.eot") format("eot");
+  }
+  @font-face {
+    font-family: "spektraBold";
+    font-weight: 900;
+    src: local("Spektra-CondensedBold"),
+      url("../fonts/Spektra-CondensedBold.eot") format("eot");
+  }
+
+  @font-face {
+    font-family: "spektra";
+    font-weight: 600;
+    src: local("Spektra"),
+      url("../fonts/Spektra.eot") format("eot");
+  }
+
+h1{
+    font-family: spektraBold;
+}
+
+p{
+    font-family: arnhem;
+}
