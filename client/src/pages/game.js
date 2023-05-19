@@ -14,8 +14,14 @@ export const Game = () => {
 
     
   return (
+   
+    <div className='wrapper'>
+      <div className='header'>
+       <h1>✤ PICK A CARD</h1>
+        </div>
+    
     <div className='game'>
-        <h1>PICK A CARD</h1>
+       
     <div className='container'>
       
         {cutDeck.map((card) => {
@@ -41,6 +47,8 @@ export const Game = () => {
     <Button variant="contained" href="/game">Next</Button>
   
     </div>
+    </div>
+    
 
   )
 }

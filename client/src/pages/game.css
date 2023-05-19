@@ -1,15 +1,28 @@
 div.game{
-    background-color: #560737;
-    padding: 20px;
+    background-color: #360153;
+    background-image: url("../images/background.jpg");
 }
 
-div.game h1{
+div.header h1{
     color: #FAFAFA;
-    text-align: center;
     font-family: spektraBold;
     font-size: 100px;
     font-weight: 700;
-    letter-spacing: .2rem;
+    letter-spacing: 4px;
+    margin-left: 15px;
+}
+
+div.header{
+    background-color: #141414;
+    padding: 10px;
+}
+
+
+div.wrapper {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
 }
 
 div.game p{
@@ -24,11 +37,14 @@ div.game p{
     height: auto;
     margin: auto;
     display: block;
+    color: #111; 
+    box-shadow: 0 0 150px rgb(175, 247, 31); 
 }
 
 
 div.container{
     display: flex;
+    padding-top: 60px;
 
 }
 
@@ -45,12 +61,13 @@ div.card{
     height: 0;
   }
   
-  /* IMAGE STYLES */
+ 
   [type=radio] + img {
     cursor: pointer;
   }
   
-  /* CHECKED STYLES */
+
   [type=radio]:checked + img {
-    outline: 2px solid #AA11BB;
+    outline: 10px solid #AA11BB;
+    opacity: 50%;
   }
