@@ -12,8 +12,8 @@
 
   @font-face {
     font-family: grapenuts;
-    src: local("Fontspring-DEMO-pinkcrestelle-bold"),
-    url("../fonts/Fontspring-DEMO-pinkcrestelle-bold.eot") format("eot");
+    src: local("Roslindale-DeckNarrowBold-Testing"),
+    url("../fonts/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
   }
   
 
@@ -25,7 +25,7 @@
   }
 
 h1{
-    font-family: spektraBold;
+    font-family: grapenuts;
 }
 
 p{

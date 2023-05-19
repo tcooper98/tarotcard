@@ -17,7 +17,7 @@ export const Game = () => {
    
     <div className='wrapper'>
       <div className='header'>
-       <h1>✤ PICK A CARD</h1>
+       <h1>PICK A CARD</h1>
         </div>
     
     <div className='game'>
