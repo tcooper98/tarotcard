@@ -1,54 +1,131 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Cards } from '../cards/cards'
-import { Card } from '@mui/material';
+import { Card, Paper } from '@mui/material';
 import './game.css'
 import Button from '@mui/material/Button';
 
 
 
 export const Game = () => {
-    const shuffled = Cards.sort(() => 0.5 - Math.random());
-    var cutDeck = shuffled.slice(8, 11);
+  const [selectedCard, setSelectedCard] = useState(null);
+  const [selectedCards, setSelectedCards] = useState([]);
+  const [round, setRound] = useState(1);
+  const [currentDeck, setCurrentDeck] = useState(getNewDeck());
 
-    console.log(shuffled);
+  //shuffles the cards and cuts deck in middle to get 3 random cards//
+  function getNewDeck() {
+    const shuffled = Cards.sort(() => 0.5 - Math.random());
+    return shuffled.slice(8, 11);
+  }
+
+  //sets the selected card to the card that was clicked//
+  const handleCardSelection = (event) => {
+    const selectedCard = currentDeck.find((card) => card.description === event.target.value);
+    setSelectedCard(selectedCard);
+  };
+
+  
+
+  //finalizes selected card once the user clicks next//
+  const handleNextButtonClick = () => {
+    if (selectedCard) {
+      setSelectedCards((prevSelectedCards) => [...prevSelectedCards, selectedCard]);
+      setSelectedCard(null);
+//allows the user to see results after 3 selections//
+      if (selectedCards.length === 3) {
+        console.log(selectedCards);
+        
+
+       
+        setSelectedCards([]);
+        setSelectedCard(null);
+        setCurrentDeck(getNewDeck());
+        setRound(1);
+        return;
+      }
+    }
+//sets round so user knows how many selections they have made//
+    setCurrentDeck(getNewDeck());
+    setRound((prevRound) => prevRound + 1);
+  };
+  
 
     
   return (
    
     <div className='wrapper'>
+      {selectedCards.length < 3 ? (
+        <>
       <div className='header'>
        <h1>PICK A CARD</h1>
+       <h2>Round {round}/3</h2>
         </div>
     
     <div className='game'>
-       
+    
     <div className='container'>
       
-        {cutDeck.map((card) => {
+    {currentDeck.map((card) => (
 
-    return (
-   
-    
-     
       <div className="card" key={card.id}>
         
        <label>
-         <input type="radio" name="test" value={card.description}/>
+         <input type="radio"
+          name="test" 
+          value={card.description}
+          checked={selectedCard === card}
+          onChange={handleCardSelection}
+          />
          <img src={card.image} alt={card.name}/>
         </label>
         
       </div>
+       
+      ))}
+    </div>
+    <button className="next"onClick={handleNextButtonClick}>Next</button>
+       
+    </div>
+    </>
+    ) : (
+      <div className='results'>
+        <div className='header'>
+        <h1>RESULTS</h1>
+        </div>
+        <div className='gameResults'>
+          {selectedCards.slice(0,1).map((card) => (
+            <div className='past' key={card.id}>
+               <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <h2>PAST</h2>
+              <p>{card.past}</p>
+              </Paper>
+            </div>
+          ))}
+          {selectedCards.slice(1,2).map((card) => (
+            <div className='present' key={card.id}>
+              <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <h2>PRESENT</h2>
+              <p>{card.present}</p>
+              </Paper>
+            </div>
+          ))}
+          {selectedCards.slice(2,3).map((card) => (
+            <div className='future' key={card.id}>
+              <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <h2>FUTURE</h2>
+              <p>{card.future}</p>
+              </Paper>
+            </div>
+          ))}
+           <Button variant='contained' href='/game'> Play Again </Button>
+           <Button variant='contained' href='/'> Home </Button>
+        </div>
+       
+      </div>
+    )}
+  </div>
+);
+};
 
-      
-      
-    )
-    })}
-    </div>
-    <Button variant="contained" href="/game">Next</Button>
-  
-    </div>
-    </div>
-    
 
-  )
-}
+

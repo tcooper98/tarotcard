@@ -3,18 +3,36 @@ div.game{
     background-image: url("../images/background.jpg");
 }
 
+div.gameResults{
+    background-color: #360153;
+    background-image: url("../images/background.jpg");
+}
+
 div.header h1{
     color: #FAFAFA;
-    font-family: "grapenuts";
+    font-family: "roslindale";
     font-size: 100px;
     font-weight: 700;
     letter-spacing: 4px;
     margin-left: 15px;
 }
 
+div.header h2{
+    color: #FAFAFA;
+    font-family: "teramo";
+    font-size: 50px;
+    margin: 25px;
+    text-align: right;
+}
+
 div.header{
     background-color: #141414;
     padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
 }
 
 
@@ -33,7 +51,7 @@ div.game p{
 }
 
 .card img{
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
     margin: auto;
     display: block;
@@ -70,4 +88,96 @@ div.card{
   [type=radio]:checked + img {
     outline: 10px solid #AA11BB;
     opacity: 50%;
+  }
+
+  div.results{
+    background-color: #FAFAFA;
+  }
+
+  div.past{
+    padding:30px;
+  }
+  
+button.next {
+  background-color: #FAFAFA;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #141414;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "roslindale";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 100px;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  margin: 30px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  float: right;
+}
+
+button.next:hover,
+button.next:focus {
+  opacity: .75;
+}
+
+  div.past h2{
+    padding: 10px;
+    color:#141414;
+    font-size: 45px;
+    font-family: rosalindale;
+  }
+
+  div.past p{
+    padding: 10px;
+    color:#141414;
+    font-size: 35px;
+    font-family: teramo;
+    outline: solid 1px#141414;
+  }
+
+  div.present{
+    padding:30px;
+  }
+
+  div.present h2{
+    padding: 10px;
+    color:#141414;
+    font-size: 45px;
+    font-family: rosalindale;
+  }
+
+  div.present p{
+    padding: 10px;
+    color:#141414;
+    font-size: 35px;
+    font-family: teramo;
+    outline: solid 1px#141414;
+  }
+
+  div.future{
+    padding:30px;
+  }
+
+  div.future h2{
+    padding: 10px;
+    color:#141414;
+    font-size: 45px;
+    font-family: rosalindale;
+  }
+
+  div.future p{
+    padding: 10px;
+    color:#141414;
+    font-size: 35px;
+    font-family: teramo;
+    outline: solid 1px#141414;
   }

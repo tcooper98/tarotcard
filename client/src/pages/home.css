@@ -11,9 +11,21 @@
   }
 
   @font-face {
-    font-family: grapenuts;
+    font-family: roslindale;
     src: local("Roslindale-DeckNarrowBold-Testing"),
     url("../fonts/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: teramo;
+    src: local("AnyConv.com__teramo-variable"),
+    url("../fonts/AnyConv.com__teramo-variable.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: pinkBold;
+    src: local("Fontspring-DEMO-pinkcrestelle-bold_1"),
+    url("../fonts/Fontspring-DEMO-pinkcrestelle-bold_1.woff") format("woff");
   }
   
 
@@ -25,9 +37,9 @@
   }
 
 h1{
-    font-family: grapenuts;
+    font-family: pinkBold;
 }
 
 p{
-    font-family: arnhem;
+    font-family: teramo;
 }
