@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Cards } from '../cards/cards'
-import { Card, Paper } from '@mui/material';
+import { Card, Grow, Paper } from '@mui/material';
 import './game.css'
 import Button from '@mui/material/Button';
 
@@ -68,7 +68,9 @@ export const Game = () => {
     {currentDeck.map((card) => (
 
       <div className="card" key={card.id}>
-        
+        <Grow in={true}
+        style={{ transformOrigin: '0 0 0' }}
+        {...(true ? { timeout: 1500 } : {})}>
        <label>
          <input type="radio"
           name="test" 
@@ -78,7 +80,7 @@ export const Game = () => {
           />
          <img src={card.image} alt={card.name}/>
         </label>
-        
+        </Grow>
       </div>
        
       ))}

@@ -1,0 +1,71 @@
+div.infoheader{
+    background-color: #141414;
+    display: flex;
+    width: 100%;
+}
+
+div.infoheader h1{
+    color: #FAFAFA;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'teramo';
+    padding: 20px;
+    
+}
+
+div.infoheader h1:hover{
+    color: #600028;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family: 'teramo';
+    border: #600028 1px solid;
+}
+
+div.info h1{
+    color: #141414;
+    font-family: roslindale;
+    font-size: 4.5vw;
+}
+
+div.history {
+   display: flex;
+   background-color: #360153;
+}
+
+div.history img{
+    width: 1000px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+div.historyImg{
+    background-image: url("../images/history2.jpg");
+    width: 200%;
+    background-position: top; 
+    background-repeat: no-repeat;
+
+}
+
+div.history h1{
+    color: #FAFAFA;
+    font-family: 'rosalindale';
+    font-size: 4.5vw;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: right;
+    padding-bottom: 30px;
+}
+
+div.history p{
+    color: #141414;
+    font-family: 'teramo';
+    text-align: left;
+    margin: 40px;
+    max-width: 75%;
+    font-size: 1vw;
+    background-color: #FAFAFA;
+    padding: 20px;
+    outline: #141414 2px solid;
+    font-weight: 800;
+}
