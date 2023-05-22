@@ -155,7 +155,7 @@ export const Cards =[
         image: require ("../images/star.png"),
         description:'star card',
         past:'You have gone and passed through a terrible life challenge. You have managed to go through this without loosing faith. While you suffered, you perhaps were not aware of your own strength, but you are now perhaps recognizing that the loss helped you discover your own resilience and inner power. It is only now that you can really appreciate all that you have.',
-        present:'You are abundantly blessed you are by the universe as evidence of various things around you although it may not be evident at the moment. You are being encouraged to have faith in the universe and trust that the universe will provide you with all that you need.',
+        present:'You are abundantly blessed by the universe as evidence of various things around you although it may not be evident at the moment. You are being encouraged to have faith in the universe and trust that the universe will provide you with all that you need.',
         future:'You will suffer from a loss of confidence. When this happens you must remember all of the wonderful things about yourself or your negative thoguhts will manifest into reality.'
     },
     {
@@ -203,8 +203,95 @@ export const Cards =[
         present:'You have mastered the art of not letting things get to you, and this will allow you to achieve much in progress in all areas you seek out to explore',
         future:'In moments of great anxiety you will be able to remain calm throughout. You will have have a clear vision of what you want to achieve and how you will achieve it.'
     },
+    {
+        id: 25,
+        name:'King of Wands',
+        image: require ("../images/wands.png"),
+        description:'king of wands card',
+        past:'You were arrogant in the pursuit of your goals and were not able to see the bigger picture. You were not able to see the consequences of your actions.',
+        present:'You have an idea and if you decisively take action, you will be successful. You must be confident in your abilities and be willing to take risks.',
+        future:'You will have an idea and if you decisively take action, you will be successful. You must be confident in your abilities and be willing to take risks.'
 
-
-
- 
+    },
+    {
+        id: 26,
+        name:'Queen of Wands',
+        image: require ("../images/qwands.png"),
+        description:'queen of wands card',
+        past:'Look back at your past and see how you were able to accomplish a significant amount of achievement in just a small amount of time. You were confident in your abilities and were willing to take risks.',
+        present:'You are planning to accomplish a significant amount of achievement in just a small amount of time. You are confident in your abilities and are willing to take risks. Don\'t forget your rational side and be sure to think things through.',
+        future:'There is a possibility that you will encounter obstacles that will hamper your progress. Do not mind these obstacles and contunue doing your job as you see fit'
+    },
+    {
+        id: 27,
+        name:'Knight of Wands',
+        image: require ("../images/kwands.png"),
+        description:'knight of wands card',
+        past:'An event happened that you did not expect to happen. This lead to lots of change in your life. You were able to adapt to the change and were able to move on.',
+        present:'It is a great time for you to get away and travel. You will be able to experience new things and meet new people. You will be able to learn new things about yourself and the world around you.',
+        future:'A great creative project awaits you. You should persue it with lots of energy and enthusiasm. However you should balance it with realistic and well-rounded views.'
+    },
+    {
+        id: 28,
+        name:'Page of Wands',
+        image: require ("../images/pwands.png"),
+        description:'page of wands card',
+        past:'You were filled with youth, excitement, and curiosity for the world. You were excited and eager to learn about the world around you.',
+        present:'Something in you is urging you to make discoveries, indulge in investments, and take the the next advancement in life. Remove the fear, gather your resources and do something.',
+        future:'You will one great idea after another but be unable to progress beyond the beginning planning stages. You must choose one idea and focus on it.'
+    },
+    {
+        id: 29,
+        name:'Ace of Wands',
+        image: require ("../images/awand.png"),
+        description:'ace of wands card',
+        past:'You were weighed down by your past commitments and responsibilities. You were not able to move forward and were not able to take action.',
+        present:'You should just go for it. Take the chance and pursue an idea that you have in mind. If you think the project you have is a good idea follow you instincts and do it.',
+        future:'You will hit a breakthough moment in your life. You will be motivated and inspired about a passion project. Be excited about the opportunities that are opening up for you in the near future.'
+    },
+    {
+        id: 30,
+        name:'King of Cups',
+        image: require ("../images/kingcup.png"),
+        description:'king of cups card',
+        past:'You were able to maintain balance and harmony in a conflict and all parties left in harmony',
+        present:'You have a strong balance between intellect and emotion. When you have balanced emotions you are able to control them',
+        future:'You will be able to balance the needs of others, and enhance the harmony among all parties involved. You will be able to control your emotions and will be able to make decisions based on logic and reason.'
+    },
+    {
+        id: 31,
+        name:'Queen of Cups',
+        image: require ("../images/queencup.png"),
+        description:'queen of cups card',
+        past:'You put too much effort into your relationships and were not able to focus on yourself. You were not able to take care of yourself and were not able to express your emotions.',
+        present:'You should take the time to focus on your eomotional health before trying to help others. Self-love creates compassion',
+        future:'You can also feel restricted in the expressing the way that you truly feel. Most times, bottling up your emotions can be very damaging and will lead to a boiling point in the near future. You may have high levels of stress that you are not able to cope with anymore.'
+    },
+    {
+        id: 32,
+        name:'Knight of Cups',
+        image: require ("../images/knightcup.png"),
+        description:'knight of cups card',
+        past:'When faced with decisions you listened to your heart, regaredless of whether this was actually the logical choice or not',
+        present:'You allow your emotions to control your life more than you should. A situation could be appealing at first but can quickly turn out to be something very different.',
+        future:'You will meet someone who will have a certain emotional benefit for you. Let them in and allow them to help you.'
+    },
+    {
+        id: 33,
+        name:'Page of Cups',
+        image: require ("../images/pagecup.png"),
+        description:'page of cups card',
+        past:'You were afraid to reveal your emotions. It is time to release and show these emotions. The creative you and emotional you should be expressed, no matter hpw insignificant they may have seemed.',
+        present:'persistance is the only way that you can make your dreams come true. Listen to your intuition, follow your calling, and believe everything is possible.',
+        future:'You should be open to new ideas, especially ones that stem from intuive insipration. It will lead you to adventure and open many doors.'
+    },
+    {
+        id: 34,
+        name:'Ace of Cups',
+        image: require ("../images/cup.png"),
+        description:'ace of cups card',
+        past:'There is something in your life that is no longer giving you the joy that it once had.',
+        present:'It is time to let loose of your emotional baggage you have to start living your life to the fullest.',
+        future:'It is important to open themselves to more opportunities for friendships, love, and spiritual learnings. There is a chance to put the past behind you, for you are being offered the gift of cups. It is up to you whether to take the cup and drink to the fullest.'
+    },
 ]

@@ -117,8 +117,12 @@ export const Game = () => {
               </Paper>
             </div>
           ))}
-           <Button variant='contained' href='/game'> Play Again </Button>
-           <Button variant='contained' href='/'> Home </Button>
+          <a href='/game'>
+           <button variant='contained' href='/game'> Play Again </button>
+           </a>
+           <a href='/'>
+           <button variant='contained' href='/'> Home </button>
+            </a>
         </div>
        
       </div>

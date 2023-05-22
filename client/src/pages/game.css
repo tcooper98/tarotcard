@@ -11,7 +11,7 @@ div.gameResults{
 div.header h1{
     color: #FAFAFA;
     font-family: "roslindale";
-    font-size: 100px;
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: 4px;
     margin-left: 15px;
@@ -20,7 +20,7 @@ div.header h1{
 div.header h2{
     color: #FAFAFA;
     font-family: "teramo";
-    font-size: 50px;
+    font-size: 2vw;
     margin: 25px;
     text-align: right;
 }
@@ -51,7 +51,7 @@ div.game p{
 }
 
 .card img{
-    max-width: 60%;
+    max-width: 58%;
     height: auto;
     margin: auto;
     display: block;
@@ -98,7 +98,7 @@ div.card{
     padding:30px;
   }
   
-button.next {
+button {
   background-color: #FAFAFA;
   border-radius: 4px;
   border-style: none;
@@ -111,7 +111,7 @@ button.next {
   font-weight: 500;
   line-height: 1.5;
   margin: 0;
-  max-width: 100px;
+  max-width: 200px;
   min-height: 44px;
   min-width: 10px;
   outline: none;
@@ -124,8 +124,8 @@ button.next {
   float: right;
 }
 
-button.next:hover,
-button.next:focus {
+button:hover,
+button:focus {
   opacity: .75;
 }
 

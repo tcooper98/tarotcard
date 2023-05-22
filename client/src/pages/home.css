@@ -36,10 +36,79 @@
       url("../fonts/Spektra.eot") format("eot");
   }
 
-h1{
-    font-family: pinkBold;
+div.home h1{
+    font-family: roslindale;
+    text-align: right;
+    font-size: 4.5vw;
+    color: #FAFAFA;
+    padding: 20px;
+    margin-top: 5%;
 }
 
-p{
+div.home p{
     font-family: teramo;
+    text-align: center;
+    font-size: 3.5vw;
+    margin-left: 30%;
+    text-align: right;
+    padding: 20px;
+    padding-top: 10%;
+}
+
+
+div.home-wrapper{
+  background-color: #141414;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+div.home{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+  background-color: #141414;
+}
+
+div.home-header{
+  grid-area: 1 / 1 / 3 / 4;  
+  background-color: #141414;
+}
+
+div.home-body{
+  grid-area: 3 / 1 / 7 / 4;
+  background-color: #FAFAFA;
+  border: #141414 2px solid;
+ 
+}
+
+div.home-image{
+  grid-area: 1 / 4 / 7 / 6; 
+  background-image: url("../images/crystal-ball.gif");
+  background-position: center; 
+  background-repeat: no-repeat;
+  border: #141414 2px solid;
+}
+
+/* div.home-image img{
+  object-fit: cover;
+  max-width: auto;
+  height: 100%;
+  border: black 4px solid;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+div.home button:hover{
+  background-color: #FAFAFA;
+  color: #600028;
+  border: #141414 2px solid;
+}
+
+div.home button{
+  background-color: #FAFAFA;
+  color: #141414;
+  border: #600028 2px solid;
 }
