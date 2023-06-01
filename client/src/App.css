@@ -1,10 +1,4 @@
 
-@font-face {
-  font-family: "arnhem";   
-  src: local("AnyConv.com__Arnhem"),
-    url("./fonts/AnyConv.com__Arnhem.eot") format("eot");
-}
-
 *{
   margin: 0;
   padding: 0;

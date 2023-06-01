@@ -1,19 +1,15 @@
-@font-face {
-    font-family: "arnhem";   
-    src: local("AnyConv.com__Arnhem"),
-      url("../fonts/AnyConv.com__Arnhem.eot") format("eot");
-  }
-  @font-face {
-    font-family: "spektraBold";
-    font-weight: 900;
-    src: local("Spektra-CondensedBold"),
-      url("../fonts/Spektra-CondensedBold.eot") format("eot");
-  }
 
-  @font-face {
+@font-face {
     font-family: roslindale;
     src: local("Roslindale-DeckNarrowBold-Testing"),
     url("../fonts/Roslindale-DeckNarrowBold-Testing.woff") format("woff");
+  }
+
+  @font-face {
+    font-family: roslindaleLight;
+    font-weight: 100;
+    src: local("Roslindale-DisplayNarrowUltra-Testing"),
+    url("../fonts/Roslindale-DisplayNarrowExtraLight-Testing.woff") format("woff");
   }
 
   @font-face {
@@ -22,19 +18,8 @@
     url("../fonts/AnyConv.com__teramo-variable.woff") format("woff");
   }
 
-  @font-face {
-    font-family: pinkBold;
-    src: local("Fontspring-DEMO-pinkcrestelle-bold_1"),
-    url("../fonts/Fontspring-DEMO-pinkcrestelle-bold_1.woff") format("woff");
-  }
-  
 
-  @font-face {
-    font-family: "spektra";
-    font-weight: 600;
-    src: local("Spektra"),
-      url("../fonts/Spektra.eot") format("eot");
-  }
+ 
 
 div.home h1{
     font-family: roslindale;
@@ -111,4 +96,36 @@ div.home button{
   background-color: #FAFAFA;
   color: #141414;
   border: #600028 2px solid;
+}
+
+@media screen and (max-width: 600px) {
+  div.home{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(6, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px; 
+  }
+
+  div.home-image{
+    grid-area: 1 / 1 / 4 / 4;
+    margin-top: 50px;
+  }
+
+  div.home-header{
+    grid-area: 4 / 1 / 5 / 4;
+  }
+
+  div.home-header h1{
+    font-size: 30px;
+  }
+
+  div.home-body p{
+    font-size: 30px;
+  }
+  
+  div.home-body{
+    grid-area: 5 / 1 / 7 / 4; 
+   
+  }
 }

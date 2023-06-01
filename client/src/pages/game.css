@@ -1,3 +1,4 @@
+
 div.game{
     background-color: #360153;
     background-image: url("../images/background.jpg");
@@ -55,14 +56,6 @@ div.game p{
     font-size: 55px;
 }
 
-.card img{
-    max-width: 58%;
-    height: auto;
-    margin: auto;
-    display: block;
-    color: #111; 
-    box-shadow: 0 0 150px rgb(175, 247, 31); 
-}
 
 
 div.container{
@@ -185,4 +178,213 @@ button:focus {
     font-size: 35px;
     font-family: teramo;
     outline: solid 1px#141414;
+  }
+
+  
+    .card img{
+      width: 58%;
+      height: auto;
+      margin: auto;
+      display: block;
+      color: #111; 
+      box-shadow: 0 0 150px rgb(175, 247, 31); 
+  }
+
+  
+  
+
+  @media screen and (max-width: 1508px) {
+    .card img{
+      width: 80%;
+      height: auto;
+      margin: auto;
+      display: block;
+      color: #111; 
+      box-shadow: 0 0 150px rgb(175, 247, 31); 
+  }
+ 
+  }
+
+  @media screen and (max-width: 880px) {
+    
+    .card img{
+      width: 100%;
+      height: auto;
+      margin: auto;
+      display: block;
+      color: #111; 
+      box-shadow: 0 0 150px rgb(175, 247, 31); 
+  }
+
+  button {
+    font-size: 20px;
+    max-width: 100px;
+    min-height: 44px;
+    min-width: 10px;
+    margin: 30px;
+  }
+  
+  div.past p{
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  div.past h2{
+    padding: 5px;
+    font-size: 40px;
+  }
+  
+  div.present p{
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  div.present h2{
+    padding: 5px;
+    font-size: 40px;
+  }
+  
+  div.future p{
+    padding: 5px;
+    font-size: 30px;
+  }
+  
+  div.future h2{
+    padding: 5px;
+    font-size: 40px;
+  }
+  
+  div.past{
+      padding:15px;
+    }
+  
+    div.present{
+      padding:15px;
+    }
+  
+    div.future{
+      padding:15px;
+      padding-bottom: 20px;
+    }
+
+    div.results button {
+      font-size: 20px;
+      max-width: 150px;
+      min-height: 25px;
+      min-width: 5px;
+      margin: 15px;
+    }  
+    
+    div.past{
+      padding:25px;
+    }
+  
+    div.present{
+      padding:25px;
+    }
+  
+    div.future{
+      padding:25px;
+      padding-bottom: 45px;
+    }
+  
+  }
+
+  
+
+  @media screen and (max-width: 600px) {
+    div.card img {
+      max-width: 95%;
+      height: auto;
+      margin: auto;
+      display: block;
+      color: #111; 
+      box-shadow: 0 0 100px rgb(175, 247, 31); 
+      
+    }
+
+    div.card{
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+      margin-bottom: 60px;
+  }
+
+  div.header h2{
+    margin: 10px;
+
+}
+button {
+  font-size: 20px;
+  max-width: 85px;
+  min-height: 25px;
+  min-width: 5px;
+  margin: 15px;
+}
+
+div.past p{
+  padding: 5px;
+  font-size: 15px;
+}
+
+div.past h2{
+  padding: 5px;
+  font-size: 30px;
+}
+
+div.present p{
+  padding: 5px;
+  font-size: 15px;
+}
+
+div.present h2{
+  padding: 5px;
+  font-size: 30px;
+}
+
+div.future p{
+  padding: 5px;
+  font-size: 15px;
+}
+
+div.future h2{
+  padding: 5px;
+  font-size: 30px;
+}
+
+div.past{
+    padding:15px;
+  }
+
+  div.present{
+    padding:15px;
+  }
+
+  div.future{
+    padding:15px;
+    padding-bottom: 20px;
+  }
+
+  [type=radio]:checked + img {
+    outline: 3px solid #AA11BB;
+  }
+
+  div.results h1{
+    font-size: 25px;
+    text-align: bottom;
+  }
+
+  div.results button {
+    font-size: 20px;
+    max-width: 300px;
+    min-height: 25px;
+    min-width: 5px;
+    margin: 15px;
+  }
+
+  div.buttonAlign{
+    margin-right: 5%;
+    
+  }
+
   }

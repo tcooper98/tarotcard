@@ -2,6 +2,8 @@ import React from 'react'
 import './info.css'
 import Header from '../components/header'
 import historyImg from '../images/history.jpg'
+import { History } from '../components/history'
+
 
 export const Info = () => {
   return (
@@ -17,8 +19,9 @@ export const Info = () => {
       <div className='historyImg'>
       {/* <img src={historyImg} alt="history" /> */}
       </div>
+
       </div>
-    
+      <History/>
       </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ div.infoheader{
     background-color: #141414;
     display: flex;
     width: 100%;
+    position: fixed;
 }
 
 div.infoheader h1{
@@ -29,7 +30,11 @@ div.info h1{
 
 div.history {
    display: flex;
-   background-color: #360153;
+   /* background-color: #360153;
+   background-image: url("../images/background.jpg"); */
+   padding-top: 80px;
+   /* min-height: 60vh;
+   min-width: auto; */
 }
 
 div.history img{
@@ -48,18 +53,20 @@ div.historyImg{
 
 div.history h1{
     color: #FAFAFA;
-    font-family: 'rosalindale';
+    font-family: roslindaleLight;
     font-size: 4.5vw;
     margin-left: 30px;
     margin-top: 10px;
     padding: 20px;
     text-align: right;
     padding-bottom: 30px;
+    
 }
 
 div.history p{
     color: #141414;
-    font-family: 'teramo';
+    font-family: teramo;
+    font-weight: 300;
     text-align: left;
     margin: 40px;
     max-width: 75%;
@@ -68,4 +75,15 @@ div.history p{
     padding: 20px;
     outline: #141414 2px solid;
     font-weight: 800;
+    box-shadow: 0 0 150px rgb(175, 247, 31); 
+}
+
+div.info{
+  background-color: #360153;
+   background-image: url("../images/background.jpg");
+   margin: 0;
+   padding: 0;
+   min-height: 115vh;
+   background-repeat: no-repeat;
+   background-size:cover;
 }
