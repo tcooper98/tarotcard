@@ -88,14 +88,14 @@ div.home-image{
 
 div.home button:hover{
   background-color: #FAFAFA;
-  color: #600028;
-  border: #141414 2px solid;
+  color: #aff71f;
+  border: #aff71f 2px solid;
 }
 
 div.home button{
   background-color: #FAFAFA;
   color: #141414;
-  border: #600028 2px solid;
+  border: #141414 2px solid;
 }
 
 @media screen and (max-width: 600px) {
