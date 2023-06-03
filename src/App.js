@@ -9,9 +9,9 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/tarotcard/" element={<Home />} />
-      <Route path="/tarotcard/game" element={<Game />} />
-      <Route path="/tarotcard/info" element={<Info />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/game" element={<Game />} />
+      <Route path="/info" element={<Info />} />
     </Routes>
   </Router>
   );
