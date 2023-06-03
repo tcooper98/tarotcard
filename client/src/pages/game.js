@@ -97,26 +97,26 @@ export const Game = () => {
         <div className='gameResults'>
           {selectedCards.slice(0,1).map((card) => (
             <div className='past' key={card.id}>
-               <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <div className='fortune'>
               <h2>PAST</h2>
               <p>{card.past}</p>
-              </Paper>
+              </div>
             </div>
           ))}
           {selectedCards.slice(1,2).map((card) => (
             <div className='present' key={card.id}>
-              <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <div className='fortune'>
               <h2>PRESENT</h2>
               <p>{card.present}</p>
-              </Paper>
+              </div>
             </div>
           ))}
           {selectedCards.slice(2,3).map((card) => (
             <div className='future' key={card.id}>
-              <Paper elevation={10}   margin="auto" style={{ maxWidth: "1000px", margin: "auto", backgroundColor:"#FAFAFA", padding:"20px" }}>
+              <div className='fortune'>
               <h2>FUTURE</h2>
               <p>{card.future}</p>
-              </Paper>
+              </div>
             </div>
           ))}
           <div className='buttonAlign'>

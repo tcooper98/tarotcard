@@ -190,6 +190,14 @@ button:focus {
       box-shadow: 0 0 150px rgb(175, 247, 31); 
   }
 
+  div.fortune{
+    background-color: #FAFAFA;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:10px 10px 10px #141414;
+  }
+
   
   
 
