@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <div className='infoheader'>
-    <a href="/">
+    <a href="/tarotcard/">
     <h1>HOME </h1>
     </a>
     </div>

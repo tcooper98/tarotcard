@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { Home } from './pages/home';
 import "./fonts/AnyConv.com__Arnhem.eot"
@@ -10,9 +9,9 @@ function App() {
   return (
     <Router>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/game" element={<Game />} />
-      <Route path="/info" element={<Info />} />
+      <Route path="/tarotcard/" element={<Home />} />
+      <Route path="/tarotcard/game" element={<Game />} />
+      <Route path="/tarotcard/info" element={<Info />} />
     </Routes>
   </Router>
   );
