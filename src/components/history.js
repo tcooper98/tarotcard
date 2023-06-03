@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Stepper from '@mui/material/Stepper';
 import Step from '@mui/material/Step';
-import { StepButton} from '@mui/material';
+import StepLabel from '@mui/material/StepLabel';
+import { StepButton, createTheme } from '@mui/material';
 import '../pages/info.css'
-
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import { ThemeProvider } from '@emotion/react';
 
 
 

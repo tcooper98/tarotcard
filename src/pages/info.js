@@ -1,6 +1,7 @@
 import React from 'react'
 import './info.css'
 import Header from '../components/header'
+import historyImg from '../images/history.jpg'
 import { History } from '../components/history'
 import { Card, CardContent, CardMedia } from '@mui/material'
 
@@ -42,7 +43,7 @@ export const Info = () => {
       <h1>TAROT SETS</h1>
       <div className='setsWrapper'>
       <div>
-        <a href='https://www.etsy.com/listing/1112255840/the-telezma-tarot' rel="noreferrer" target="_blank">
+        <a href='https://www.etsy.com/listing/1112255840/the-telezma-tarot' target="_blank">
        <Card sx={{ width: 400, marginLeft: 10, marginRight:10 }}>
         <CardMedia
         sx={{ height: 600, margin: 3 }}
@@ -56,7 +57,7 @@ export const Info = () => {
         </a>
        </div>
         <div>
-      <a href='https://www.etsy.com/listing/1126481255/b-grade-red-edge-mars-power-tarot-deck?click_key=958074e15eafc2bd4a6ad0c1dc9f273e56eebd13%3A1126481255&click_sum=1f2ecb3c&ref=sold_out-2' rel="noreferrer" target="_blank">
+      <a href='https://www.etsy.com/listing/1126481255/b-grade-red-edge-mars-power-tarot-deck?click_key=958074e15eafc2bd4a6ad0c1dc9f273e56eebd13%3A1126481255&click_sum=1f2ecb3c&ref=sold_out-2' target="_blank">
        <Card sx={{ width: 400, marginLeft: 10, marginRight:10  }}>
         <CardMedia
         sx={{ height: 600, margin: 3 }}
@@ -70,7 +71,7 @@ export const Info = () => {
         </a>
        </div>
        <div>
-      <a href='https://www.barnesandnoble.com/w/the-gentle-thrills-tarot-isa-beniston/1141659029?ean=9781401971779' rel="noreferrer" target="_blank">
+      <a href='https://www.barnesandnoble.com/w/the-gentle-thrills-tarot-isa-beniston/1141659029?ean=9781401971779' target="_blank">
        <Card sx={{ width: 400, marginLeft: 10, marginRight:10  }}>
         <CardMedia
         sx={{ height: 600, margin: 3 }}
@@ -84,7 +85,7 @@ export const Info = () => {
         </a>
        </div>
        <div>
-       <a href='https://dust2onyx.com/' rel="noreferrer" target="_blank">
+       <a href='https://dust2onyx.com/' target="_blank">
        <Card sx={{ width: 400, marginLeft: 10, marginRight:10  }}>
         <CardMedia
         sx={{ height: 600, margin: 3 }}
