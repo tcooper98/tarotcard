@@ -11,11 +11,11 @@ export const Home = () => {
       <div className='home-body'>
       <p>pick a card each round to learn your future</p>
       
-      <a href="/game">
-      <button variant="contained" href="/game">Start</button>
+      <a href="/tarotcard/game">
+      <button variant="contained" href="/tarotcard/game">Start</button>
       </a>
-      <a href="/info">
-      <button variant="contained" href="/info">Info</button>
+      <a href="/tarotcard/info">
+      <button variant="contained" href="/tarotcard/info">Info</button>
       </a>
       </div>
       <div className='home-image'>
