@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fb421dc6.css",
-    "main.js": "/static/js/main.be29c249.js",
+    "main.js": "/static/js/main.8b21a060.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/pope.png": "/static/media/pope.0d2ec751c968ced05543.png",
     "static/media/background.jpg": "/static/media/background.8409c182f8077f96895f.jpg",
@@ -45,11 +45,11 @@
     "static/media/AnyConv.com__teramo-variable.woff": "/static/media/AnyConv.com__teramo-variable.46117ffc07ca8852e645.woff",
     "index.html": "/index.html",
     "main.fb421dc6.css.map": "/static/css/main.fb421dc6.css.map",
-    "main.be29c249.js.map": "/static/js/main.be29c249.js.map",
+    "main.8b21a060.js.map": "/static/js/main.8b21a060.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb421dc6.css",
-    "static/js/main.be29c249.js"
+    "static/js/main.8b21a060.js"
   ]
 }
