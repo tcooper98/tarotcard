@@ -120,11 +120,11 @@ export const Game = () => {
             </div>
           ))}
           <div className='buttonAlign'>
-          <a href='/tarotcard/game'>
-           <button variant='contained' href='/tarotcard/game'> Play Again </button>
+          <a href='/game'>
+           <button variant='contained' href='/game'> Play Again </button>
            </a>
-           <a href='/tarotcard/'>
-           <button variant='contained' href='/tarotcard/'> Home </button>
+           <a href='/'>
+           <button variant='contained' href='/'> Home </button>
             </a>
           </div>
         </div>
