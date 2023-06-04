@@ -23,8 +23,8 @@ export const Cards =[
         name:'Empress',
         image: require ("../images/empress.png"),
         description:'empress card',
-        past:'You had an aundance of nurturing grace. A soul, in touch with its feminine side, is a soul that is in touch with its emotions. You were able to express your emotions and were able to attract people to your presence.',
-        present:'You have an abundance of creative endeavers that will blossom as you find harmony in nurturing your passions and manifesting your dreams.',
+        past:'You had an abundance of nurturing grace. A soul, in touch with its feminine side, is a soul that is in touch with its emotions. You were able to express your emotions and were able to attract people to your presence.',
+        present:'You have an abundance of creative endeavors that will blossom as you find harmony in nurturing your passions and manifesting your dreams.',
         future:'If you seek creativity and abundance in your life, you will find harmony in nurturing your passions and manifesting your dreams.'
     },
     { 
@@ -102,7 +102,7 @@ export const Cards =[
         description:'fool card',
         past:'You have been living in the moment and have not been thinking about the future. You have been taking risks and have been living life to the fullest.',
         present:'You are living in the moment and are not thinking about the future. You are taking risks and are living life to the fullest.', 
-        future:'You will begin a new journey. You will be filled with optimism and excitement from the usual constrants in life. You must approach this journey with an open mind.'     
+        future:'You will begin a new journey. You will be filled with optimism and excitement from the usual constraints in life. You must approach this journey with an open mind.'     
     },
     {
         id: 12,
@@ -156,7 +156,7 @@ export const Cards =[
         description:'star card',
         past:'You have gone and passed through a terrible life challenge. You have managed to go through this without loosing faith. While you suffered, you perhaps were not aware of your own strength, but you are now perhaps recognizing that the loss helped you discover your own resilience and inner power. It is only now that you can really appreciate all that you have.',
         present:'You are abundantly blessed by the universe as evidence of various things around you although it may not be evident at the moment. You are being encouraged to have faith in the universe and trust that the universe will provide you with all that you need.',
-        future:'You will suffer from a loss of confidence. When this happens you must remember all of the wonderful things about yourself or your negative thoguhts will manifest into reality.'
+        future:'You will suffer from a loss of confidence. When this happens you must remember all of the wonderful things about yourself or your negative thoughts will manifest into reality.'
     },
     {
         id: 20,
@@ -164,8 +164,8 @@ export const Cards =[
         image: require ("../images/strength.png"),
         description:'strength card',
         past:'You experienced a lack of conviction and confidence in your own abilities. This caused you to forget about your passions and the kind of joy, happiness, and fulfillment that came with doing what you love.  ',
-        present:'You will are faced with moments of distress but you must remain calm and composed. You must be patient and gentle with yourself and others.',
-        future:'You are about to experience an intence anger or fear in your life. You must remain calm and composed. You must be patient and gentle with yourself and others.'
+        present:'You are faced with moments of distress but you must remain calm and composed. You must be patient and gentle with yourself and others.',
+        future:'You are about to experience an intense anger or fear in your life. You must remain calm and composed. You must be patient and gentle with yourself and others.'
     },
     {
         id: 21,
@@ -174,7 +174,7 @@ export const Cards =[
         description:'sun card',
         past:'You were happy and content. You were enjoying life and were feeling optimistic about the future.',
         present:'You have difficulties finding positive aspects in certain situations. This is preventing you from feeling confident and powerful.',
-        future:'There is success, abundance, and radience in your future. There is much joy and happiness that is coming to you'
+        future:'There is success, abundance, and radiance in your future. There is much joy and happiness that is coming to you'
     },
     {
         id: 22,
@@ -183,14 +183,14 @@ export const Cards =[
         description:'tower card',
         past:'You have experienced a major breakdown in your life. You have experienced a major change in your life. You have accepted the change and have moved on.',
         present:'You can feel some crisis looming along the horizon, and you are struggling as much as you can to try and avoid its manifestation. What you have not realized is that these breakdowns can be beneficial in breaking down your reliance on something that is false. The tower is built on faulty foundations, and it must fall.',
-        future:'Change is coming in the most radical and momentous sense. Remain positive as you replace old foundations of the past with someting that is more genuine and will serve you better in what is to come'
+        future:'Change is coming in the most radical and momentous sense. Remain positive as you replace old foundations of the past with something that is more genuine and will serve you better in what is to come'
     },
     {
         id: 23,
         name:'world',
         image: require ("../images/world.png"),
         description:'world card',
-        past:'Your relationships have provided you with a deep graditude and fulfillemnt. How will you use this to move forward?',
+        past:'Your relationships have provided you with a deep gratitude and fulfillment. How will you use this to move forward?',
         present:'You experience a great unity with the universe. You are in harmony with yourself and the world around you. All of the efforts that you put in place are starting to pay off and you are feeling a great sense of gratitude and satisfaction.',
         future:'If you continue to work on yourself and the relationships around you, you will experience a great unity with the universe. You will be in harmony with yourself and the world around you. All of the efforts that you put in place will start to pay off and you will feel a great sense of gratitude and satisfaction.'
     },
@@ -220,7 +220,7 @@ export const Cards =[
         description:'queen of wands card',
         past:'Look back at your past and see how you were able to accomplish a significant amount of achievement in just a small amount of time. You were confident in your abilities and were willing to take risks.',
         present:'You are planning to accomplish a significant amount of achievement in just a small amount of time. You are confident in your abilities and are willing to take risks. Don\'t forget your rational side and be sure to think things through.',
-        future:'There is a possibility that you will encounter obstacles that will hamper your progress. Do not mind these obstacles and contunue doing your job as you see fit'
+        future:'There is a possibility that you will encounter obstacles that will hamper your progress. Do not mind these obstacles and continue doing your job as you see fit'
     },
     {
         id: 27,
@@ -229,7 +229,7 @@ export const Cards =[
         description:'knight of wands card',
         past:'An event happened that you did not expect to happen. This lead to lots of change in your life. You were able to adapt to the change and were able to move on.',
         present:'It is a great time for you to get away and travel. You will be able to experience new things and meet new people. You will be able to learn new things about yourself and the world around you.',
-        future:'A great creative project awaits you. You should persue it with lots of energy and enthusiasm. However you should balance it with realistic and well-rounded views.'
+        future:'A great creative project awaits you. You should pursue it with lots of energy and enthusiasm. However you should balance it with realistic and well-rounded views.'
     },
     {
         id: 28,
@@ -247,7 +247,7 @@ export const Cards =[
         description:'ace of wands card',
         past:'You were weighed down by your past commitments and responsibilities. You were not able to move forward and were not able to take action.',
         present:'You should just go for it. Take the chance and pursue an idea that you have in mind. If you think the project you have is a good idea follow you instincts and do it.',
-        future:'You will hit a breakthough moment in your life. You will be motivated and inspired about a passion project. Be excited about the opportunities that are opening up for you in the near future.'
+        future:'You will hit a breakthrough moment in your life. You will be motivated and inspired about a passion project. Be excited about the opportunities that are opening up for you in the near future.'
     },
     {
         id: 30,
@@ -264,7 +264,7 @@ export const Cards =[
         image: require ("../images/queencup.png"),
         description:'queen of cups card',
         past:'You put too much effort into your relationships and were not able to focus on yourself. You were not able to take care of yourself and were not able to express your emotions.',
-        present:'You should take the time to focus on your eomotional health before trying to help others. Self-love creates compassion',
+        present:'You should take the time to focus on your emotional health before trying to help others. Self-love creates compassion',
         future:'You can also feel restricted in the expressing the way that you truly feel. Most times, bottling up your emotions can be very damaging and will lead to a boiling point in the near future. You may have high levels of stress that you are not able to cope with anymore.'
     },
     {
@@ -272,7 +272,7 @@ export const Cards =[
         name:'Knight of Cups',
         image: require ("../images/knightcup.png"),
         description:'knight of cups card',
-        past:'When faced with decisions you listened to your heart, regaredless of whether this was actually the logical choice or not',
+        past:'When faced with decisions you listened to your heart, regardless of whether this was actually the logical choice or not',
         present:'You allow your emotions to control your life more than you should. A situation could be appealing at first but can quickly turn out to be something very different.',
         future:'You will meet someone who will have a certain emotional benefit for you. Let them in and allow them to help you.'
     },
@@ -283,7 +283,7 @@ export const Cards =[
         description:'page of cups card',
         past:'You were afraid to reveal your emotions. It is time to release and show these emotions. The creative you and emotional you should be expressed, no matter hpw insignificant they may have seemed.',
         present:'persistance is the only way that you can make your dreams come true. Listen to your intuition, follow your calling, and believe everything is possible.',
-        future:'You should be open to new ideas, especially ones that stem from intuive insipration. It will lead you to adventure and open many doors.'
+        future:'You should be open to new ideas, especially ones that stem from intuitive inspiration. It will lead you to adventure and open many doors.'
     },
     {
         id: 34,
