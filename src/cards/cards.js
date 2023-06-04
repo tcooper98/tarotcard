@@ -15,7 +15,7 @@ export const Cards =[
         image: require ("../images/emperor.png"),
         description:'emperor card',
         past:'You have used logic and reason to make decisions and you were in control. Although having control feels powerful often times it lead to unexpressed emotions.',
-        present:'You are in a time of structured leadership with a firm grasp of your domain. You strategic vision and strong decision-making skills will guide you',
+        present:'You are in a time of structured leadership with a firm grasp of your domain. Strategic vision and strong decision-making skills will guide you',
         future:'If you continue to use logic and reason to make decisions over emotion, you will achieve your goals with unwavering authority and profound wisdom, they shall forge a path of structure and stability, weaving the threads of power and influence to shape a legacy yet unseen.'
     },
     { 
@@ -32,11 +32,9 @@ export const Cards =[
         name:'Justice',
         image: require ("../images/justice.png"),
         description:'justice card',
-        past:'You have been wronged and are seeking justice. You have learned the truth about others and yourself, and have spoken the truth before passing judgement.',
-        present:'You are being wronged and are seeking justice. Learn the truth about others and yourself, speak and know the truth before passing judgement.',
+        past:'You have been wronged and are seeking justice. You have learned the truth about others and yourself, and have spoken the truth before passing judgment.',
+        present:'You are being wronged and are seeking justice. Learn the truth about others and yourself, and speak and know the truth before passing judgment.',
         future:'Attention will be needed in your life. You will need to make a decision that will affect your future. Look at the facts and make a decision based on logic and reason.'
-
-
     },
     { 
         id: 5,
@@ -53,8 +51,9 @@ export const Cards =[
         image: require ("../images/magican.png"),
         description:'magician card',
         past:'You pushed yourself to become the best version of yourself. You were able to manifest your goals into reality.',
-        present:'It is time to take action now and any signs of holding back would mean missing out on the opportunity of becoming the best version of yourself.',
+        present:'It is the time to take action now and any signs of holding back would mean missing out on the opportunity of becoming the best version of yourself.',
         future:'Beware someone will draw you in with their showmanship and charisma. They pretend to have your best interest at heart but they are only looking out for themselves.'
+
 
     },
     { 
@@ -82,7 +81,7 @@ export const Cards =[
         name:'Death',
         image: require ("../images/death.png"),
         description:'death card',
-        past:'You have been through a major change in your life. You have accepted the change and have moved on.',
+        past:'You have been through a major change in your life. You accepted the change and moved on.',
         present:'One major phase in your life is coming to an end and another is beginning. You must accept the change and move on so you can focus on what is ahead of you',
         future:'The old version of you needs to die to allow a new you to be created. You must accept the change and move on so the door to new life events can open up'
     },
@@ -119,7 +118,7 @@ export const Cards =[
         image: require ("../images/handman.png"),
         description:'hangman card',
         past:'You were in a period of indecision and were stalling certain actions. You were reflecting on making critical decisions.',
-        present:'You are in a period of indecision. This means that certain actions or decisions which need to be properly implemented are likely to be postponed even if there is an urgency to act at this particular moment. In fact, it would be ultimately the best if you are capable of stalling certain actions in order to ensure that you have more time to reflect on making critical decisions, this will ultimately be the best.',
+        present:'You are in a period of uncertainty. This means that certain actions or decisions which need to be properly implemented are likely to be postponed even if there is an urgency to act at this particular moment. In fact, it would be ultimately best if you are capable of stalling certain actions in order to ensure that you have more time to reflect on making critical decisions, this will ultimately be the best.',
         future:'You will be in a period of indecision. This means that certain actions or decisions which need to be properly implemented are likely to be postponed even if there is an urgency to act at this particular moment. In fact, it would be ultimately the best if you are capable of stalling certain actions in order to ensure that you have more time to reflect on making critical decisions, this will ultimately be the best.'
     },
     {
@@ -154,7 +153,7 @@ export const Cards =[
         name:'star',
         image: require ("../images/star.png"),
         description:'star card',
-        past:'You have gone and passed through a terrible life challenge. You have managed to go through this without loosing faith. While you suffered, you perhaps were not aware of your own strength, but you are now perhaps recognizing that the loss helped you discover your own resilience and inner power. It is only now that you can really appreciate all that you have.',
+        past:'You have gone and passed through a terrible life challenge. You have managed to go through this without losing faith. While you suffered, you perhaps were not aware of your own strength, but you are now perhaps recognizing that the loss helped you discover your own resilience and inner power. It is only now that you can really appreciate all that you have.',
         present:'You are abundantly blessed by the universe as evidence of various things around you although it may not be evident at the moment. You are being encouraged to have faith in the universe and trust that the universe will provide you with all that you need.',
         future:'You will suffer from a loss of confidence. When this happens you must remember all of the wonderful things about yourself or your negative thoughts will manifest into reality.'
     },
@@ -190,7 +189,7 @@ export const Cards =[
         name:'world',
         image: require ("../images/world.png"),
         description:'world card',
-        past:'Your relationships have provided you with a deep gratitude and fulfillment. How will you use this to move forward?',
+        past:'Your relationships have provided you with deep gratitude and fulfillment. How will you use this to move forward?',
         present:'You experience a great unity with the universe. You are in harmony with yourself and the world around you. All of the efforts that you put in place are starting to pay off and you are feeling a great sense of gratitude and satisfaction.',
         future:'If you continue to work on yourself and the relationships around you, you will experience a great unity with the universe. You will be in harmony with yourself and the world around you. All of the efforts that you put in place will start to pay off and you will feel a great sense of gratitude and satisfaction.'
     },
@@ -201,7 +200,7 @@ export const Cards =[
         description:'temprence card',
         past:'You were able to stay calm and not let your anxieties rule your life. You were able to achieve much in progress in all areas you sought out to explore.',
         present:'You have mastered the art of not letting things get to you, and this will allow you to achieve much in progress in all areas you seek out to explore',
-        future:'In moments of great anxiety you will be able to remain calm throughout. You will have have a clear vision of what you want to achieve and how you will achieve it.'
+        future:'In moments of great anxiety you will be able to remain calm throughout. You will have a clear vision of what you want to achieve and how you will achieve it.'
     },
     {
         id: 25,
@@ -228,8 +227,9 @@ export const Cards =[
         image: require ("../images/kwands.png"),
         description:'knight of wands card',
         past:'An event happened that you did not expect to happen. This lead to lots of change in your life. You were able to adapt to the change and were able to move on.',
-        present:'It is a great time for you to get away and travel. You will be able to experience new things and meet new people. You will be able to learn new things about yourself and the world around you.',
-        future:'A great creative project awaits you. You should pursue it with lots of energy and enthusiasm. However you should balance it with realistic and well-rounded views.'
+        present:'It is an excellent time for you to get away and travel. You will be able to experience new things and meet new people. You will be able to learn new things about yourself and the world around you.',
+        future:'A great creative project awaits you. You should pursue it with lots of energy and enthusiasm. However, you should balance it with realistic and well-rounded views.'
+
     },
     {
         id: 28,
@@ -237,8 +237,8 @@ export const Cards =[
         image: require ("../images/pwands.png"),
         description:'page of wands card',
         past:'You were filled with youth, excitement, and curiosity for the world. You were excited and eager to learn about the world around you.',
-        present:'Something in you is urging you to make discoveries, indulge in investments, and take the the next advancement in life. Remove the fear, gather your resources and do something.',
-        future:'You will one great idea after another but be unable to progress beyond the beginning planning stages. You must choose one idea and focus on it.'
+        present:'Something in you is urging you to make discoveries, indulge in investments, and take the next advancement in life. Remove the fear, gather your resources and do something.',
+        future:'You will have one great idea after another but be unable to progress beyond the beginning planning stages. You must choose one idea and focus on it.'
     },
     {
         id: 29,
@@ -246,8 +246,9 @@ export const Cards =[
         image: require ("../images/awand.png"),
         description:'ace of wands card',
         past:'You were weighed down by your past commitments and responsibilities. You were not able to move forward and were not able to take action.',
-        present:'You should just go for it. Take the chance and pursue an idea that you have in mind. If you think the project you have is a good idea follow you instincts and do it.',
-        future:'You will hit a breakthrough moment in your life. You will be motivated and inspired about a passion project. Be excited about the opportunities that are opening up for you in the near future.'
+        present:'You should just go for it. Take the chance and pursue an idea that you have in mind. If you think the project you have is a good idea follow your instincts and do it.',
+        future:'You will hit a breakthrough moment in your life. You will be motivated and inspired by a passion project. Be excited about the opportunities that are opening up for you in the near future.'
+
     },
     {
         id: 30,
@@ -265,7 +266,7 @@ export const Cards =[
         description:'queen of cups card',
         past:'You put too much effort into your relationships and were not able to focus on yourself. You were not able to take care of yourself and were not able to express your emotions.',
         present:'You should take the time to focus on your emotional health before trying to help others. Self-love creates compassion',
-        future:'You can also feel restricted in the expressing the way that you truly feel. Most times, bottling up your emotions can be very damaging and will lead to a boiling point in the near future. You may have high levels of stress that you are not able to cope with anymore.'
+        future:'You can also feel restricted in expressing the way that you truly feel. Most times, bottling up your emotions can be very damaging and will lead to a boiling point in the near future. You may have high levels of stress that you are not able to cope with anymore.'
     },
     {
         id: 32,
@@ -281,7 +282,7 @@ export const Cards =[
         name:'Page of Cups',
         image: require ("../images/pagecup.png"),
         description:'page of cups card',
-        past:'You were afraid to reveal your emotions. It is time to release and show these emotions. The creative you and emotional you should be expressed, no matter hpw insignificant they may have seemed.',
+        past:'You were afraid to reveal your emotions. It is time to release and show these emotions. The creative you and emotional you should be expressed, no matter how insignificant they may have seemed.',
         present:'persistance is the only way that you can make your dreams come true. Listen to your intuition, follow your calling, and believe everything is possible.',
         future:'You should be open to new ideas, especially ones that stem from intuitive inspiration. It will lead you to adventure and open many doors.'
     },
@@ -292,6 +293,6 @@ export const Cards =[
         description:'ace of cups card',
         past:'There is something in your life that is no longer giving you the joy that it once had.',
         present:'It is time to let loose of your emotional baggage you have to start living your life to the fullest.',
-        future:'It is important to open themselves to more opportunities for friendships, love, and spiritual learnings. There is a chance to put the past behind you, for you are being offered the gift of cups. It is up to you whether to take the cup and drink to the fullest.'
+        future:'It is important to open themselves to more opportunities for friendships, love, and spiritual learning. There is a chance to put the past behind you, for you are being offered the gift of cups. It is up to you whether to take the cup and drink to the fullest.'
     },
 ]
